@@ -13,5 +13,5 @@ PageTemplate.py 使用一个类定义了目标网页的元数据，包括url结�
 rules.py 使用xpath语法定义了目标网页需要抓取数据的节点信息
 main.py 由用户自己编写数据读取方式
 
-可以很方便地扩展PageTemplate.py和rules.py实现抓取不同的网页数据。
+可以很方便地按照实际需求扩展PageTemplate.py中的元数据类和rules.py中的抓取规则实现抓取不同的网页数据。
 
